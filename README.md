@@ -120,7 +120,7 @@ Mengendalikan iMCLab dari Python lewat komunikasi serial, menjalankan uji step P
 
 ### Hasil
 
-![Grafik respons motor](../Dokumentasi%20Robotika/Grafik%202.png)
+![Grafik respons motor](Dokumentasi%20Robotika/Grafik%202.png)
 
 *Gambar 3. Grafik respons motor terhadap step PWM.*
 
