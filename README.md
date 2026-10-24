@@ -89,7 +89,6 @@ Mengendalikan kecepatan (PWM) dan arah motor DC serta LED pada iMCLab melalui pe
 
 *Gambar 2. Kit iMCLab yang digunakan.*
 
-*Gambar 2. Kit iMCLab yang digunakan.*
 
 ### Analisis
 - Motor tidak bergerak pada PWM 60 dan 70, dan mulai berputar pada PWM sekitar **80 persen**. Ini disebut **zona mati (dead zone)**: pada PWM rendah, tegangan rata-rata belum cukup untuk mengatasi gesekan statis poros dan rugi tegangan pada driver.
@@ -127,11 +126,20 @@ Mengendalikan iMCLab dari Python lewat komunikasi serial, menjalankan uji step P
 ![Terminal Python](images/modul2-terminal.png)
 *Gambar 4. Keluaran terminal saat script berjalan.*
 
-Cuplikan data (`Modul/data_imclab.csv`):
+### Cuplikan Data (`Modul 2/data_imclab.csv`)
 
+```csv
+waktu_s,pwm_bertanda_persen,rpm
+6.038858890533447,0,0.0
+8.548717975616455,0,0.0
+15.076401710510254,60,0.0
+17.57729697227478,60,0.0
+24.111018896102905,70,0.0
+26.620463132858276,70,0.0
+33.14850759506299,80,0.0
+35.6536386013031,80,0.0
 ```
-[tempel beberapa baris CSV di sini]
-```
+
 
 ### Analisis
 - `[isi: pada PWM berapa motor mulai bergerak menurut data, dan apa yang terlihat pada PWM 60 dan 70]`
