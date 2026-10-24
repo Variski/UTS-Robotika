@@ -81,10 +81,10 @@ Mengendalikan kecepatan (PWM) dan arah motor DC serta LED pada iMCLab melalui pe
 
 ### Hasil
 
-![Serial Monitor Modul 1](images/modul1-serial.png)
+![Serial Monitor Modul 1](Dokumentasi Robotika/Modul 1.png)
 *Gambar 1. Tampilan Serial Monitor pada pengujian perintah.*
 
-![Rangkaian iMCLab](images/modul1-rangkaian.jpg)
+![Rangkaian iMCLab](Dokumentasi Robotika/modul1-rangkaian.jpg)
 *Gambar 2. Kit iMCLab yang digunakan.*
 
 ### Analisis
@@ -122,7 +122,7 @@ Mengendalikan iMCLab dari Python lewat komunikasi serial, menjalankan uji step P
 ![Terminal Python](images/modul2-terminal.png)
 *Gambar 4. Keluaran terminal saat script berjalan.*
 
-Cuplikan data (`data_imclab.csv`):
+Cuplikan data (`Modul/data_imclab.csv`):
 
 ```
 [tempel beberapa baris CSV di sini]
